@@ -1,0 +1,22 @@
+{
+  "name": "crud-mean",
+  "version": "1.0.0",
+  "description": "MEAN STACK CRUDE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennismachu/node-crud-mean.git"
+  },
+  "author": "Dennis Machu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennismachu/node-crud-mean/issues"
+  },
+  "homepage": "https://github.com/dennismachu/node-crud-mean#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
