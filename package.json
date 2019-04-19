@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dennismachu/node-crud-mean#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2"
   }
 }
