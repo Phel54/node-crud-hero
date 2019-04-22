@@ -9,7 +9,6 @@ var db = require('./config/database');
 // Hero Routes
 var herosRoutes = require('./heros/heros.routes');
 
-
 var app = express();
 
 //configure bodyparser
@@ -37,12 +36,10 @@ app.use(function (req, res, next) {
 });
 
 // use express router
-app.use('/api', router);
+app.use('/api/heros', router);
 
 //call heros routing
 herosRoutes(router);
-
-
 
 
 // intialise server

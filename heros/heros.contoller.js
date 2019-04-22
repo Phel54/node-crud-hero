@@ -32,7 +32,7 @@ exports.getHeros = function (req, res, next) {
 }
 
 exports.getHero = function (req, res, next) {
-    Heros.get({ name: req.params.name }, function (err, heros) {
+    Heros.get({ _id: req.params.id }, function (err, heros) {
         if (err) {
             res.json({
                 error: err
